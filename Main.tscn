@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Inventar/InventoryDisplay.tscn" type="PackedScene" id=2]
+
+[node name="Game" type="Node"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="InventoryDisplay" parent="CanvasLayer/Control" instance=ExtResource( 2 )]
+anchor_left = 1.0
+anchor_top = 1.0
+margin_left = -127.0
+margin_top = -114.0
+
+[node name="World" type="Node2D" parent="."]

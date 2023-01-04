@@ -1,0 +1,7 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Inventar/Inventory.gd" type="Script" id=5]
+
+[resource]
+script = ExtResource( 5 )
+items = [ null, null, null, null, null, null, null, null, null ]

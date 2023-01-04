@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Items/Item.gd" type="Script" id=1]
+
+[sub_resource type="StreamTexture" id=1]
+load_path = "res://.import/HealingPotion.png-b48c2b14f6687716da307e9938f39867.stex"
+
+[resource]
+script = ExtResource( 1 )
+name = "Potion"
+texture = SubResource( 1 )
